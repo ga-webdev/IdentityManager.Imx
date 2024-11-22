@@ -253,6 +253,13 @@ body .mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab
     }    
 }
 
+.eui-clickable:focus.eui-clickable--primary, 
+.eui-clickable:focus.eui-clickable--primary .eui-badge-content, 
+.eui-clickable.eui-badge:focus.eui-clickable--primary, 
+.eui-clickable.eui-badge:focus.eui-clickable--primary .eui-badge-content {
+    background-image: linear-gradient(rgba(227, 106, 0, 0.12) 0 0);
+}
+
 body .mat-expansion-panel .mat-expansion-panel-header.cdk-keyboard-focused:not([aria-disabled=true]), 
 body .mat-expansion-panel .mat-expansion-panel-header.cdk-program-focused:not([aria-disabled=true]), 
 body .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover:not([aria-disabled=true]){
@@ -288,6 +295,9 @@ li.imx-event.imx-info{
 
 .mat-tree-node--selected{
     border: 1px solid $corbin-tint !important;
+}
+.imx-card:hover{
+    border: 1px solid $corbin-orange !important;
 }
 
 .eui-top-navigation-desktop .eui-top-navigation .eui-top-navigation-item-active .mat-button, 
