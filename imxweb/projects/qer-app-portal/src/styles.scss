@@ -152,14 +152,14 @@ body a{
     }
 }
 
-.imx-loginButtonpanel button {
-    color: $corbin-orange !important;
-    &:hover{
-        background-color: $corbin-orange !important;
-        color: #fff !important;
-        border: 1px solid #fff !important;
-    }
-}
+// .imx-loginButtonpanel button {
+//     color: $corbin-orange !important;
+//     &:hover{
+//         background-color: $corbin-orange !important;
+//         color: #fff !important;
+//         border: 1px solid #fff !important;
+//     }
+// }
 
 body .mat-primary .mat-option.mat-selected:not(.mat-option-disabled),
 body .mat-form-field.mat-focused.mat-primary .mat-select-arrow,
@@ -173,12 +173,17 @@ body .mat-form-field.mat-focused .mat-form-field-label {
     color: $corbin-orange;
 }
 
-.imx-loginPage,
+// .imx-loginPage,
+// .eui-masthead,
+// .eui-masthead-inner>.mat-toolbar,
 .snavigation .mat-sidenav-container .mat-sidenav .snavigation-side .snavigation-side-content .snavigation-item.snavigation-item--selected,
-.splash-screen-container,
-.eui-masthead,
-.eui-masthead-inner>.mat-toolbar{
+.splash-screen-container {
     background-color: $corbin-orange !important;
+}
+
+.eui-masthead,
+.eui-masthead-inner>.mat-toolbar {
+    background-color: $ga_orange !important;
 }
 
 body .mat-form-field.mat-focused .mat-form-field-ripple,
