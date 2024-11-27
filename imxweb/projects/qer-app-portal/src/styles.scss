@@ -329,6 +329,11 @@ li.imx-event.imx-info{
     color: white !important;
 }
 
+.imx-generic-tile-content > div:first-child {
+    background-color: $corbin-pastel !important;
+    color: $corbin-orange !important;
+}
+
 body .mat-step-header .mat-step-icon-selected,
 body .mat-step-header .mat-step-icon-state-done,
 body .mat-step-header .mat-step-icon-state-edit {
